@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NetComClient" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NetComClient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NetComClient" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lws2_32" />
+			<Add library="../../../Downloads/mingw64/lib/libformw.a" />
+			<Add library="../../../Downloads/mingw64/lib/libformw.dll.a" />
+			<Add library="../../../Downloads/mingw64/lib/libmenuw.a" />
+			<Add library="../../../Downloads/mingw64/lib/libmenuw.dll.a" />
+			<Add library="../../../Downloads/mingw64/lib/libncursesw.a" />
+			<Add library="../../../Downloads/mingw64/lib/libncursesw.dll.a" />
+			<Add library="../../../Downloads/mingw64/lib/libpanelw.a" />
+			<Add library="../../../Downloads/mingw64/lib/libpanelw.dll.a" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

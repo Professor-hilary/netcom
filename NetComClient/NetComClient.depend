@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1728023283 source:c:\users\ujvvvvvvvvvvvvvvvvvv\documents\cpp\netcomclient\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+	<algorithm>
+	<vector>
+	<ncursesw/ncurses.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<netdb.h>
+	<thread>
+
+1727106556 c:\program files\codeblocks\mingw\include\ncursesw\ncurses.h
+	<ncursesw/ncurses_dll.h>
+	<stdint.h>
+	<stdnoreturn.h>
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdbool.h>
+	<libutf8.h>
+	<wchar.h>
+	<ncursesw/unctrl.h>
+
+1727106557 c:\program files\codeblocks\mingw\include\ncursesw\ncurses_dll.h
+
+1727106556 c:\program files\codeblocks\mingw\include\ncursesw\unctrl.h
+	<ncursesw/curses.h>
+
+1727106556 c:\program files\codeblocks\mingw\include\ncursesw\curses.h
+	<ncursesw/ncurses_dll.h>
+	<stdint.h>
+	<stdnoreturn.h>
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdbool.h>
+	<libutf8.h>
+	<wchar.h>
+	<ncursesw/unctrl.h>
+

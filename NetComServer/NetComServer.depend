@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1728019107 source:c:\users\ujvvvvvvvvvvvvvvvvvv\documents\cpp\netcomserver\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<cstdlib>
+	<cstring>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<process.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<pthread.h>
+
